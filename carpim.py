@@ -10,4 +10,4 @@ X = matris_tanim(500, 500)
 Y = matris_tanim(500, 500)
 
 result = [[sum(a*b for a,b in zip(X_row,Y_col)) for Y_col in zip(*Y)] for X_row in X]
-print(result)
+print("result", result)
